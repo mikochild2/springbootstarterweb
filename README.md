@@ -1,5 +1,8 @@
 # springbootstarterweb
 
+## Project Directions
+https://www.baeldung.com/spring-boot-crud-thymeleaf
+
 ## Issues
 
 ### @NotBlank cannot be resolved to a type
