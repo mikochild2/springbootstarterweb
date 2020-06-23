@@ -22,7 +22,7 @@ public class UserController {
   @Autowired
   private UserRepository userRepository;
 
-  @PostMapping("/addUser")
+  @PostMapping("/adduser")
   public String addUser(@Valid User user, BindingResult result, Model model) {
       if (result.hasErrors()) {
           return "add-user";
